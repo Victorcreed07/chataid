@@ -98,7 +98,7 @@ const handleSubmit = async () => {
 
   loader(message)
 
-const request = await fetch('http://localhost:5000',{
+const request = await fetch('https://chataid-api.onrender.com/',{
 
   method:'POST',
   headers:{
